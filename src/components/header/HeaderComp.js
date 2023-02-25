@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const HeaderComp = () => {
   // const [onDisplay, setOnDisplay] = useState(false);
@@ -12,12 +13,16 @@ const HeaderComp = () => {
       </div>
       <div className="w-[80%]">
         <ul className="w-full flex items-center justify-start gap-7">
-          <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
-            home
-          </li>
-          <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
-            about me
-          </li>
+          <Link href="/">
+            <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+              home
+            </li>
+          </Link>
+          <Link href="/about">
+            <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+              about me
+            </li>
+          </Link>
           <li className="dropdown text-sm text-[#6D6D6D] font-Poppins capitalize">
             works{" "}
             <span className="px-2">

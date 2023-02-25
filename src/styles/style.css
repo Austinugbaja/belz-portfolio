@@ -23,6 +23,12 @@
   background-size: cover;
 }
 
+.about-hero {
+  background: url("/images/about-hero.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .role {
   color: linear-gradient(to right, #60b1fc 0%, #fe79f9 56.04%, #ff8473 100%);
 }
