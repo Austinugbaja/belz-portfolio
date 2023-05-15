@@ -24,7 +24,13 @@
 }
 
 .about-hero {
-  background: url("/images/about-hero.png") no-repeat;
+  background: url("/images/belz-cover.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.vendly-hero {
+  background: url("/images/vendly-cover.png") no-repeat;
   background-position: center;
   background-size: cover;
 }

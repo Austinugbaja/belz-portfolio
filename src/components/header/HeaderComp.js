@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import { DropDownBtn } from "../modal/DropDown";
+import DropEx from "../modal/DropEx";
 
 const HeaderComp = () => {
   // const [onDisplay, setOnDisplay] = useState(false);
@@ -23,7 +25,15 @@ const HeaderComp = () => {
               about me
             </li>
           </Link>
-          <li className="dropdown text-sm text-[#6D6D6D] font-Poppins capitalize">
+          {/* <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+            <DropEx />
+            <DropDownBtn
+              title="Works"
+              selectOne="Vendly"
+              selectTwo="Airsyn"
+              selectThree="AMI Hub"
+              selectFour="Tronix"
+            />
             works{" "}
             <span className="px-2">
               <FontAwesomeIcon icon={faAngleDown} width={9} color="#6D6D6D" />
@@ -42,6 +52,20 @@ const HeaderComp = () => {
                 tronix
               </li>
             </ul>
+          </li> */}
+          <Link href="/vendly">
+            <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+              vendy
+            </li>
+          </Link>
+          <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+            airsyn
+          </li>
+          <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+            ami hub
+          </li>
+          <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+            tronix
           </li>
           <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
             contact me
