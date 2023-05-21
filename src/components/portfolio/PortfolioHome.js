@@ -3,7 +3,7 @@ import { PortBtn } from "../button/PortBtn";
 
 const PortfolioHome = () => {
   return (
-    <section className="w-full px-32 py-10">
+    <section className="w-full px-56 py-10">
       <p className="text-sm text-[#363535] font-[500] font-Montserrat tracking-widest uppercase">
         my recent works 💡
       </p>

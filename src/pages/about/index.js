@@ -6,11 +6,11 @@ const index = () => {
   return (
     <MainLayout>
       <section className="w-full h-[90vh] about-hero"></section>
-      <section className="w-full px-32 py-10 space-y-5">
+      <section className="w-full px-56 py-10 space-y-5">
         <h2 className="text-base tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           a little about me
         </h2>
-        <p className="text-sm text-[#626262] font-Poppins min-w-full leading-7">
+        <p className="text-sm text-[#626262] font-Poppins min-w-full leading-7 pr-24">
           My name is Belema George and I am deeply passionate about using design
           to enhance the lives of others. I am a continuous learner, always
           seeking new opportunities to grow and exchange ideas with like-minded
@@ -28,7 +28,7 @@ const index = () => {
         </p>
         <Button title="download cv" />
       </section>
-      <section className="w-full px-32 py-10 space-y-5 bg-[#F9F9F9]">
+      <section className="w-full px-56 py-10 space-y-5 bg-[#F9F9F9]">
         <h2 className="text-base tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           my transition story
         </h2>
@@ -70,7 +70,7 @@ const index = () => {
           When I'm not Designing, I read books and learn new language phrases.
         </p>
       </section>
-      <section className="w-full px-32 py-10 space-y-9">
+      <section className="w-full px-56 py-10 space-y-9">
         <h2 className="text-base tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           some fun illustrations that i designed
         </h2>

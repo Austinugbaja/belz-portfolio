@@ -35,6 +35,24 @@
   background-size: cover;
 }
 
+.airsyn-hero {
+  background: url("/images/airsyn-cover.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tronix-hero {
+  background: url("/images/tronix-cover.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.amihub-hero {
+  background: url("/images/amihub-cover.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .role {
   color: linear-gradient(to right, #60b1fc 0%, #fe79f9 56.04%, #ff8473 100%);
 }
