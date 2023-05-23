@@ -5,15 +5,15 @@ import { tronixImageUtils } from "@/src/utils/dummyData";
 const index = () => {
   return (
     <MainLayout>
-      <section className="w-full h-[90vh] tronix-hero"></section>
-      <section className="w-full px-56 py-10 space-y-8">
+      <section className="w-full sm:h-[90vh] h-[40vh] tronix-hero"></section>
+      <section className="w-full sm:px-56 px-4 py-10 space-y-8">
         <h2 className="text-4xl text-[#424141] uppercase font-Poppins font-[600]">
           tronix website redesign
         </h2>
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           introduction
         </h2>
-        <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+        <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
           Tronix is an African laboratory that focuses on developing
           hardware-software products with the aim of making them usable,
           sustainable, accessible, and affordable. The company's goal is to
@@ -30,7 +30,7 @@ const index = () => {
           <p className="text-base uppercase text-[#363535] tracking-wide font-Poppins font-[600]">
             product designer
           </p>
-          <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+          <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
             User research, Competitor research, user persona, information
             architecture, user flows, wire frames, prototyping, visual design,
             testing
@@ -40,7 +40,7 @@ const index = () => {
           <p className="text-base font-[600] uppercase text-[#363535] tracking-wide font-Poppins">
             duration
           </p>
-          <p className="text-sm pr-24 text-[#626262] font-Poppins leading-7">
+          <p className="text-sm sm:pr-24 text-[#626262] font-Poppins leading-7">
             November 2022 - ongoing
           </p>
         </div>
@@ -48,12 +48,12 @@ const index = () => {
           <p className="text-base text-[#363535] tracking-wide font-Poppins font-[600]">
             Tools used
           </p>
-          <p className="text-sm pr-24 text-[#626262] font-Poppins leading-7">
+          <p className="text-sm sm:pr-24 text-[#626262] font-Poppins leading-7">
             Figma, google forms, google docs, Miro
           </p>
         </div>
       </section>
-      <section className="w-full bg-[#FFDFD1] py-12 px-56 space-y-5">
+      <section className="w-full bg-[#FFDFD1] py-12 sm:px-56 px-4 space-y-5">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">
           problem statement
         </h2>
@@ -65,11 +65,11 @@ const index = () => {
           aesthetically pleasing or user-friendly experience.
         </p>
       </section>
-      <section className="w-full px-56 py-10 space-y-6">
+      <section className="w-full sm:px-56 px-4 py-10 space-y-6">
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           understanding the problem
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           During the course of this project, I attempted to grasp the objectives
           that the company hoped to accomplish with the website redesign. To
           this end, I conducted interviews with the company's stakeholders and a
@@ -78,12 +78,12 @@ const index = () => {
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           interview questions
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           I conducted interviews with stakeholders to gather information about
           their needs, goals, and pain points. Some of the questions I asked
           during the interviews included:
         </p>
-        <ul className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24 space-y-4 pl-10">
+        <ul className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24 space-y-4 sm:pl-10 pl-4">
           <li className="list-disc">
             What is the primary purpose of the website?
           </li>
@@ -124,19 +124,19 @@ const index = () => {
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           usability testing
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           During the usability test, I watched users interacting with the
           website and identified any problems or difficulties they experienced.
         </p>
       </section>
-      <section className="w-full px-56 py-12 bg-[#FFDFD1]">
-        <h2 className="w-full text-3xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide">
+      <section className="w-full sm:px-56 px-4 py-12 bg-[#FFDFD1]">
+        <h2 className="w-full text-2xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide">
           analyzing the problem
         </h2>
-        <div className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-5">
+        <div className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-5">
           After conducting interviews with several stakeholders and conducting
           usability testing, I discovered the following:
-          <ul className="text-sm pr-24 pl-10 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
+          <ul className="text-sm sm:pr-24 sm:pl-10 pl-4 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
             <li className="list-disc">
               The website is outdated and does not reflect the current branding
               of the company.
@@ -162,11 +162,11 @@ const index = () => {
           </ul>
         </div>
       </section>
-      <section className="w-full px-56 py-10">
+      <section className="w-full sm:px-56 px-4 py-10">
         <h2 className="text-lg mt-7 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           user persona
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           I developed a persona representing a typical user “James” of the
           Tronix website who is interested in learning about the company's
           products and making purchases through the website.
@@ -177,7 +177,7 @@ const index = () => {
         <h2 className="text-lg mt-14 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           user journey map
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           I took the additional step of creating a user journey map for James,
           who simply wants to learn about the company, its products, and make
           purchases through the website.
@@ -188,7 +188,7 @@ const index = () => {
         <h2 className="text-lg mt-14 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           information architecture
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           I further created an information architecture of the overall framework
           and navigation of the website.
         </p>
@@ -198,7 +198,7 @@ const index = () => {
         <h2 className="text-lg mt-14 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           wireframes
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           After researching and testing with users to identify their pain
           points, I created sketches that were reviewed by the team. These
           sketches were then used to create wireframes.
@@ -209,7 +209,7 @@ const index = () => {
         <h2 className="text-lg mt-14 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           design
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           Using the wireframes as a foundation, I developed high-fidelity
           mockups and prototypes that were reviewed and evaluated by the
           front-end developers.

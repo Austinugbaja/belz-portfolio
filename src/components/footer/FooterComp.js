@@ -16,15 +16,14 @@ const FooterComp = () => {
   };
 
   return (
-    <footer className="w-full min-h-[40vh] flex items-center justify-center bg-[#F5F7F8] px-32 py-7">
+    <footer className="w-full min-h-[40vh] flex items-center justify-center bg-[#F5F7F8] sm:px-32 px-4 sm:py-7 py-3">
       <div className="w-full space-y-5 text-center">
         <h3 className="text-2xl text-[#363535] capitalize font-Montserrat font-[700]">
           let's connect
         </h3>
         <p className="text-sm text-[#484848] font-Poppins font-[500] leading-7 md:max-w-lg mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque a
-          nec sapien nulla duis. Diam semper ultricies elit non nulla sapien
-          auctor.
+          Don't hesitate to reach out to me if you're interested in exploring
+          potential opportunities or simply want to drop a friendly greeting!
         </p>
         <div className="w-full flex items-center justify-center gap-9">
           <div

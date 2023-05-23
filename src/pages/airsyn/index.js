@@ -5,20 +5,20 @@ import { Button } from "@/src/components/button/Button";
 const index = () => {
   return (
     <MainLayout>
-      <section className="w-full h-[90vh] airsyn-hero"></section>
-      <section className="w-full px-56 py-10 space-y-8">
+      <section className="w-full sm:h-[90vh] h-[40vh] airsyn-hero"></section>
+      <section className="w-full sm:px-56 px-4 py-10 space-y-8">
         <h2 className="text-4xl text-[#424141] uppercase font-Poppins font-[600]">
           airsyn design
         </h2>
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           introduction
         </h2>
-        <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+        <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
           The AirSyn Monitor is a sensor device that uses 7 sensors to detect
           and measure various gas pollutants, such as Carbon monoxide and excess
           cooking gas, in your environment.
         </p>
-        <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+        <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
           The AirSyn Monitor comes with a software that detects the presence of
           various gaseous pollutants and the level of pollution in the
           environment. It also alerts individuals of any potential hazards in
@@ -31,7 +31,7 @@ const index = () => {
           <p className="text-base uppercase text-[#363535] tracking-wide font-Poppins font-[600]">
             product designer
           </p>
-          <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+          <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
             User research, Competitor research, user persona, information
             architecture, user flows, wire frames, prototyping, visual design,
             testing
@@ -41,7 +41,7 @@ const index = () => {
           <p className="text-base font-[600] uppercase text-[#363535] tracking-wide font-Poppins">
             duration
           </p>
-          <p className="text-sm pr-24 text-[#626262] font-Poppins leading-7">
+          <p className="text-sm sm:pr-24 text-[#626262] font-Poppins leading-7">
             June 2022 - ongoing
           </p>
         </div>
@@ -49,13 +49,13 @@ const index = () => {
           <p className="text-base text-[#363535] tracking-wide font-Poppins font-[600]">
             Tools used
           </p>
-          <p className="text-sm pr-24 text-[#626262] font-Poppins leading-7">
+          <p className="text-sm sm:pr-24 text-[#626262] font-Poppins leading-7">
             Figma, google forms, google docs, whimsical
           </p>
         </div>
         <Button title="see prototype" />
       </section>
-      <section className="w-full bg-[#FCD0D0] py-12 px-56 space-y-3">
+      <section className="w-full bg-[#FCD0D0] py-12 sm:px-56 px-4 space-y-3">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">
           problem statement
         </h2>
@@ -68,11 +68,11 @@ const index = () => {
           connecting it to the software
         </p>
       </section>
-      <section className="w-full px-56 py-10 space-y-6">
+      <section className="w-full sm:px-56 px-4 py-10 space-y-6">
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           background
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           Air pollution is a major public health concern, with poor air quality
           linked to a range of health issues such as respiratory problems, heart
           disease, and cancer. To address this issue, our team developed an air
@@ -84,12 +84,12 @@ const index = () => {
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           understanding the problem
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           To understand the problem, we conducted user research by interviewing
           users and observing them using the software and hardware device. We
           found out the following;
         </p>
-        <ul className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24 pl-10">
+        <ul className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24 sm:pl-10 pl-4">
           <li className="list-disc">
             Users had a difficult time understanding the data provided by the
             device, as the information was presented in a confusing and
@@ -101,14 +101,14 @@ const index = () => {
           </li>
         </ul>
       </section>
-      <section className="w-full px-56 py-12 bg-[#FCD0D0]">
-        <h2 className="w-full text-3xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide">
+      <section className="w-full sm:px-56 px-4 py-12 bg-[#FCD0D0]">
+        <h2 className="w-full text-2xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide">
           project vision and solutions
         </h2>
-        <div className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-5">
+        <div className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-5">
           To address these issues from our research, we decided to redesigned
           the software interface to;
-          <ul className="text-sm pr-24 pl-10 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
+          <ul className="text-sm sm:pr-24 sm:pl-10 pl-4 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
             <li className="list-disc">
               Make it more user-friendly and easier to understand.
             </li>
@@ -124,7 +124,7 @@ const index = () => {
               users.
             </li>
           </ul>
-          <p className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
+          <p className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
             To begin, we conducted market research on competitors to explore
             what was currently available in the market and to gather inspiration
             for features we liked in existing platforms. I then led a 15-minute
@@ -133,16 +133,16 @@ const index = () => {
           </p>
         </div>
       </section>
-      <section className="w-full px-56 py-10">
+      <section className="w-full sm:px-56 px-4 py-10">
         <h2 className="text-lg mt-7 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           defining the mvp
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           From the sketching sessions, it became clear that there were shared
           themes in our product vision. The following key user stories were
           identified:
         </p>
-        <ul className="text-sm text-[#626262] font-light w-full leading-7 space-y-5 font-Poppins pr-24 pl-10 mt-4">
+        <ul className="text-sm text-[#626262] font-light w-full leading-7 space-y-5 font-Poppins sm:pr-24 sm:pl-10 pl-4 mt-4">
           <li className="list-disc">
             <b>Find devices:</b>&nbsp;Users can locate the various AirSyn
             devices that are registered to them.
@@ -168,7 +168,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           designs
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           Based on our sketches, I began designing the main screens, and then
           moved on to the styling. We decided to use a dark theme for the
           design.
@@ -176,7 +176,7 @@ const index = () => {
         <h2 className="text-lg mt-11 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           registration
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           For the registration screens, I created a straightforward sign-up and
           login form.
         </p>
@@ -186,7 +186,7 @@ const index = () => {
         <h2 className="text-lg mt-11 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           onboarding
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The process of onboarding users to set up their devices was made more
           user-friendly by breaking it down into smaller, manageable modules to
           avoid overwhelming the user.
@@ -197,7 +197,7 @@ const index = () => {
         <h2 className="text-lg mt-11 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           dashboard
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The dashboard displays information about all devices, including which
           ones are active, safe, and unsafe, as well as the overall status of
           the environment and any notifications.
@@ -208,7 +208,7 @@ const index = () => {
         <h2 className="text-lg mt-11 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           devices
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The devices display information about the pollutants measured by a
           specific device, including its location and status, as well as any
           related notifications.
@@ -219,7 +219,7 @@ const index = () => {
         <h2 className="text-lg mt-11 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           report
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The report feature enables users to generate reports on one or
           multiple pollutants at various time intervals and export them as PDFs.
         </p>
@@ -229,7 +229,7 @@ const index = () => {
         <h2 className="text-lg mt-11 mb-3 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           profile
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The profile section holds information about the users and their
           subscription details.
         </p>
@@ -237,15 +237,15 @@ const index = () => {
           <img src="/images/profile.png" alt="" />
         </div>
       </section>
-      <section className="w-full px-56 py-12 space-y-7 bg-[#FCD0D0]">
+      <section className="w-full sm:px-56 px-4 py-12 space-y-7 bg-[#FCD0D0]">
         <h2 className="w-full text-2xl font-Poppins font-[600] tracking-wider uppercase text-[#313131]">
           evaluation
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins">
           We evaluated the effectiveness of the redesign by conducting user
           testing with a group of users. We found that users were able to;
         </p>
-        <ul className="text-sm pr-24 pl-10 text-[#363535] font-light w-full leading-7 font-Poppins">
+        <ul className="text-sm sm:pr-24 sm:pl-10 pl-4 text-[#363535] font-light w-full leading-7 font-Poppins">
           <li className="list-disc">
             Understand the data provided by the device more easily.
           </li>
@@ -261,7 +261,7 @@ const index = () => {
         <h2 className="w-full text-2xl font-Poppins font-[600] tracking-wider uppercase text-[#313131]">
           conclusion
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins">
           Our redesign of the air monitoring software and the addition of a
           step-by-step guide for setting up the hardware device improved the
           user experience for users. By making the data provided by the device

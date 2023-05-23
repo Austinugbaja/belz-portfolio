@@ -6,15 +6,15 @@ import { vendlyAnalysisUtils } from "@/src/utils/dummyData";
 const index = () => {
   return (
     <MainLayout>
-      <section className="w-full h-[90vh] vendly-hero"></section>
-      <section className="w-full px-56 py-10 space-y-8">
+      <section className="w-full sm:h-[90vh] h-[40vh] vendly-hero"></section>
+      <section className="w-full sm:px-56 px-4 py-10 space-y-8">
         <h2 className="text-4xl text-[#424141] uppercase font-Poppins font-[600]">
           vendly design
         </h2>
         <h2 className="text-lg tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           introduction
         </h2>
-        <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+        <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
           Vendly is a decentralized platform that enables small and medium-sized
           businesses to sell products and access financing without restrictions.
           It is a social commerce platform that allows sellers to start selling
@@ -31,7 +31,7 @@ const index = () => {
           <p className="text-base uppercase text-[#363535] tracking-wide font-Poppins font-[600]">
             product designer
           </p>
-          <p className="text-sm text-[#626262] font-Poppins leading-7 pr-24">
+          <p className="text-sm text-[#626262] font-Poppins leading-7 sm:pr-24">
             User research, Competitor research, user persona, information
             architecture, user flows, wire frames, prototyping, visual design,
             testing
@@ -41,7 +41,7 @@ const index = () => {
           <p className="text-base font-[600] uppercase text-[#363535] tracking-wide font-Poppins">
             duration
           </p>
-          <p className="text-sm pr-24 text-[#626262] font-Poppins leading-7">
+          <p className="text-sm sm:pr-24 text-[#626262] font-Poppins leading-7">
             User research, Competitor research, user persona, information
             architecture, user flows, wire frames, prototyping, visual design,
             testing
@@ -51,7 +51,7 @@ const index = () => {
           <p className="text-base text-[#363535] tracking-wide font-Poppins font-[600]">
             Tools used
           </p>
-          <p className="text-sm pr-24 text-[#626262] font-Poppins leading-7">
+          <p className="text-sm sm:pr-24 text-[#626262] font-Poppins leading-7">
             User research, Competitor research, user persona, information
             architecture, user flows, wire frames, prototyping, visual design,
             testing
@@ -59,7 +59,7 @@ const index = () => {
         </div>
         <Button title="visit platform" />
       </section>
-      <section className="w-full bg-[#D3E9F6] py-12 px-56 space-y-3">
+      <section className="w-full bg-[#D3E9F6] py-12 sm:px-56 px-4 space-y-3">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">
           problem statement
         </h2>
@@ -71,18 +71,18 @@ const index = () => {
           execution.
         </p>
       </section>
-      <section className="w-full px-56 py-10">
+      <section className="w-full sm:px-56 px-4 py-10">
         <h2 className="text-lg mt-7 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           background
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           As the only designer on the team, which also included one UX writer
           and four engineers, I was in charge of conducting user research and
           creating the visual design for the platform. Although the hackathon
           was brief, we were able to accomplish several key achievements,
           including:
         </p>
-        <ul className="text-sm text-[#626262] font-light w-full leading-7 space-y-5 font-Poppins pr-24 pl-10">
+        <ul className="text-sm text-[#626262] font-light w-full leading-7 space-y-5 font-Poppins sm:pr-24 sm:pl-10 pl-4">
           <li className="list-disc">
             <b>
               We used design sprints as a way to guide and inform our process:
@@ -112,22 +112,22 @@ const index = () => {
         <h2 className="text-lg mt-10 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           the process
         </h2>
-        <p className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins">
+        <p className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins">
           Our design process for vendly is based on the ‘Design thinking
           process’. We aim to incorporate the key phases of Product definition,
           Research, Analysis, design, and validation in our project.
         </p>
       </section>
-      <section className="w-full px-56 py-4 bg-[rgb(245,245,245)]">
+      <section className="w-full sm:px-56 px-4 py-4 bg-[rgb(245,245,245)]">
         <div className="w-full flex justify-center">
           <img src="/images/design-thinking.png" alt="" />
         </div>
       </section>
-      <section className="w-full px-56 py-10">
+      <section className="w-full sm:px-56 px-4 py-10">
         <h2 className="text-lg mt-10 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           understanding the problem
         </h2>
-        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins pr-24">
+        <p className="text-sm text-[#626262] font-light w-full leading-7 font-Poppins sm:pr-24">
           The Design Thinking process is a structured approach to
           problem-solving that involves empathy, ideation, prototyping, and
           testing. By conducting interviews with five online vendors, I was able
@@ -139,7 +139,7 @@ const index = () => {
         <h2 className="text-lg mt-10 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           goals of the research
         </h2>
-        <ul className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins pl-10">
+        <ul className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins sm:pl-10 pl-4">
           <li className="list-disc">
             To identify the difficulties and issues faced by online vendors.
           </li>
@@ -160,14 +160,14 @@ const index = () => {
             increase visibility and drive traffic to their businesses.
           </li>
         </ul>
-        <p className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-3">
+        <p className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-3">
           We conducted an online survey and received responses from 96 vendors
           and 52 buyers who have been actively engaged in online buying and
           selling for the past six months, based on which we analyzed the
           results.
         </p>
       </section>
-      <section className="w-full px-56 py-10 bg-[#D3E9F6]">
+      <section className="w-full sm:px-56 px-4 py-10 bg-[#D3E9F6]">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">
           analyzing the problem
         </h2>
@@ -177,7 +177,7 @@ const index = () => {
           analysis to identify and understand the pain points and challenges
           experienced by the users;
         </p>
-        <div className="w-full grid grid-cols-2 gap-6 mt-8">
+        <div className="w-full grid sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-4 mt-8">
           {vendlyAnalysisUtils.map((item, i) => (
             <div
               className="w-full px-4 py-6 text-[#363535] text-sm font-[600] font-Poppins bg-[#F0F6FF] rounded-md"
@@ -188,7 +188,7 @@ const index = () => {
           ))}
         </div>
       </section>
-      <section className="w-full px-56 py-10">
+      <section className="w-full sm:px-56 px-4 py-10">
         <h2 className="text-lg mt-7 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           user persona
         </h2>
@@ -208,14 +208,14 @@ const index = () => {
           <img src="/images/competitors-analysis.png" alt="" />
         </div>
       </section>
-      <section className="w-full px-56 py-12 bg-[#D3E9F6]">
-        <h2 className="w-full text-3xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide">
+      <section className="w-full sm:px-56 px-4 py-12 bg-[#D3E9F6]">
+        <h2 className="w-full text-2xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide">
           product vision and solution
         </h2>
-        <div className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-5">
+        <div className="text-sm sm:pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-5">
           From these findings, we decided as a product to identify key business
           goals:
-          <ul className="text-sm pr-24 pl-10 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
+          <ul className="text-sm sm:pr-24 sm:pl-10 pl-4 text-[#626262] font-light w-full leading-7 font-Poppins mt-4">
             <li className="list-disc">
               Design the platform to be user-friendly and provide a social
               media-like experience for users.
@@ -236,10 +236,10 @@ const index = () => {
             </li>
           </ul>
         </div>
-        <h2 className="w-full text-3xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide mt-7 mb-7">
+        <h2 className="w-full text-2xl text-[#313131] font-[600] font-Poppins uppercase tracking-wide mt-7 mb-7">
           mvp
         </h2>
-        <ol className="text-sm pr-24 text-[#626262] font-light w-full leading-7 font-Poppins mt-4 list-decimal">
+        <ol className="text-sm sm:pr-24 pl-4 text-[#626262] font-light w-full leading-7 font-Poppins mt-4 list-decimal">
           <li>
             Create a product : We want users to be able to create products of
             their goods easily on the platform thereby getting all their
@@ -257,7 +257,7 @@ const index = () => {
           </li>
         </ol>
       </section>
-      <section className="w-full px-56">
+      <section className="w-full sm:px-56 px-4">
         <h2 className="text-lg mt-16 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           information architecture
         </h2>
@@ -267,7 +267,7 @@ const index = () => {
         <h2 className="text-lg mt-16 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           design
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           Throughout the project, we conducted user testing at every stage to
           identify and address any problems or issues with the current version.
           After gathering feedback, we would update the prototypes and test
@@ -278,7 +278,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           landing page
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           I desired a landing page with a straightforward call-to-action that
           clearly communicates our goal and includes all other relevant
           information provided by the platform
@@ -289,7 +289,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           sign up pages
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           A streamlined registration page that enables users to either sign in
           or create a new account using their email, LinkedIn, or Google
           credentials.
@@ -300,7 +300,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           home page
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The home page displays all products created by the seller and provides
           a menu for managing them, including a call-to-action button to create
           new projects.
@@ -311,7 +311,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           create product
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           This illustrates a step-by-step method for creating a new product.
         </p>
         <div className="w-full py-6 flex justify-center">
@@ -320,7 +320,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           account
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The account section displays detailed information about the seller and
           their business, which the buyer can review before making a purchase.
         </p>
@@ -330,7 +330,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           insight
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           Insight provides an overall view of the business performance, as well
           as specific information on how individual products are performing.
         </p>
@@ -340,7 +340,7 @@ const index = () => {
         <h2 className="text-lg mt-12 mb-5 tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">
           wallet
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins mt-4">
           The wallet feature is the financial management area of the platform,
           it displays sales, profit/loss, savings, and cryptocurrency finances.
           It also allows the seller to effectively manage their financial
@@ -350,11 +350,11 @@ const index = () => {
           <img src="/images/wallet.png" alt="" />
         </div>
       </section>
-      <section className="w-full px-56 py-12 space-y-5 bg-[#D3E9F6]">
-        <h2 className="w-full text-3xl font-Poppins font-[600] tracking-wider uppercase text-[#313131]">
+      <section className="w-full sm:px-56 px-4 py-12 space-y-5 bg-[#D3E9F6]">
+        <h2 className="w-full text-2xl font-Poppins font-[600] tracking-wider uppercase text-[#313131]">
           result and takeaways
         </h2>
-        <p className="text-sm pr-24 text-[#363535] font-light w-full leading-7 font-Poppins">
+        <p className="text-sm sm:pr-24 text-[#363535] font-light w-full leading-7 font-Poppins">
           Working at an early-stage startup was a very steep learning curve. It
           was an enlightening experience that taught me a lot about the
           importance of being efficient and strategic in terms of where to focus
@@ -363,7 +363,7 @@ const index = () => {
         <h2 className="w-full text-lg font-Poppins font-[600] tracking-wider uppercase text-[#313131]">
           ‍some key takeaways from this project are:
         </h2>
-        <ul className="text-sm pr-24 pl-10 text-[#363535] font-light w-full leading-7 font-Poppins">
+        <ul className="text-sm sm:pr-24 sm:pl-10 pl-4 text-[#363535] font-light w-full leading-7 font-Poppins">
           <li className="list-disc">
             Prioritize building a minimal viable product (MVP). As a startup, it
             is essential to be mindful of limited time and resources, so it is
