@@ -1,14 +1,31 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "../styles/globals.css";
 import "../styles/style.css";
+import GoToTop from "../components/goToTop/GoToTop";
+import Spinner from "react-spinners/BounceLoader"
 
 export default function App({ Component, pageProps }) {
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
-    const use = async () => {
-      (await import("tw-elements")).default;
-    };
-    use();
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500);
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      {!loading ? (
+        <>
+          <Component {...pageProps} />
+          <GoToTop />
+        </>
+      ) : (
+        <div className="center-page">
+          <Spinner loading={loading} size={50} color="#FCD0D0" />
+        </div>
+      )}
+    </>
+  );
 }

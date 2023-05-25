@@ -56,3 +56,10 @@
 .role {
   color: linear-gradient(to right, #60b1fc 0%, #fe79f9 56.04%, #ff8473 100%);
 }
+
+.center-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

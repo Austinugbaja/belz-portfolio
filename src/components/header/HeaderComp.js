@@ -14,6 +14,10 @@ const HeaderComp = () => {
   const [activeLink, setActiveLink] = useState(router.pathname);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleEmailClick = () => {
+    window.open("mailto:belzgeorge997@gmail.com");
+  };
+
   const toggleDropdown = () => {
     setDropdownVisible(!isDropdownVisible);
   };
@@ -116,7 +120,14 @@ const HeaderComp = () => {
                 </ul>
               )}
             </li>
-            <li className="text-sm text-[#6D6D6D] font-Poppins capitalize">
+            <li
+              className={`text-sm font-Poppins capitalize cursor-pointer ${
+                activeLink === "/contact"
+                  ? "font-[600] text-[#60B1FC]"
+                  : "font-[400] text-[#6D6D6D]"
+              }`}
+              onClick={handleEmailClick}
+            >
               contact me
             </li>
           </ul>
@@ -223,10 +234,17 @@ const HeaderComp = () => {
                 </ul>
               )}
             </li>
+            <li
+              className={`text-sm font-Poppins hover:text-[#1D5C89] hover:font-bold cursor-pointer ${
+                activeLink === "/contact"
+                  ? "font-[600] text-[#60B1FC]"
+                  : "font-[400] text-[#6D6D6D]"
+              }`}
+              onClick={handleEmailClick}
+            >
+              Contact me
+            </li>
           </ul>
-          <div className="w-full flex items-center justify-center text-[#6D6D6D]">
-            <Link href="/">Contact me</Link>
-          </div>
         </div>
       )}
     </>

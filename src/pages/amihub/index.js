@@ -3,6 +3,10 @@ import MainLayout from "@/src/layout/MainLayout";
 import { Button } from "@/src/components/button/Button";
 
 const index = () => {
+  const handleClick = () => {
+    window.open("https://ami-hub.vercel.app/", "_blank");
+  };
+
   return (
     <MainLayout>
       <section className="w-full sm:h-[90vh] h-[40vh] amihub-hero"></section>
@@ -48,7 +52,9 @@ const index = () => {
             Figma, google forms, google docs
           </p>
         </div>
-        <Button title="visit website" />
+        <div onClick={handleClick}>
+          <Button title="visit website" />
+        </div>
       </section>
       <section className="w-full bg-[#D5DEFD] py-12 sm:px-56 px-4 space-y-5">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">

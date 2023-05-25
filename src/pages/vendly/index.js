@@ -57,7 +57,7 @@ const index = () => {
             testing
           </p>
         </div>
-        <Button title="visit platform" />
+        {/* <Button title="visit platform" /> */}
       </section>
       <section className="w-full bg-[#D3E9F6] py-12 sm:px-56 px-4 space-y-3">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">

@@ -3,6 +3,13 @@ import MainLayout from "@/src/layout/MainLayout";
 import { Button } from "@/src/components/button/Button";
 
 const index = () => {
+  const handleClick = () => {
+    window.open(
+      "https://www.figma.com/proto/lcyGR5tCLeFCnj6E6PfYbb/Tronix-Redesign?type=design&scaling=contain&page-id=0%3A1&starting-point-node-id=14%3A458&node-id=97-1459",
+      "_blank"
+    );
+  };
+
   return (
     <MainLayout>
       <section className="w-full sm:h-[90vh] h-[40vh] airsyn-hero"></section>
@@ -53,7 +60,9 @@ const index = () => {
             Figma, google forms, google docs, whimsical
           </p>
         </div>
-        <Button title="see prototype" />
+        <div onClick={handleClick}>
+          <Button title="see prototype" />
+        </div>
       </section>
       <section className="w-full bg-[#FCD0D0] py-12 sm:px-56 px-4 space-y-3">
         <h2 className="text-2xl text-[#313131] text-center uppercase font-[600] tracking-wide font-Poppins">

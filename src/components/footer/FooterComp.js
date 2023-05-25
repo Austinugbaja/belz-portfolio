@@ -8,6 +8,10 @@ const FooterComp = () => {
     window.open("https://www.behance.net/belemageorge", "_blank");
   };
 
+  const handleEmailClick = () => {
+    window.open("mailto:belzgeorge997@gmail.com");
+  };
+
   const handleLinkedinClick = () => {
     window.open(
       " https://www.linkedin.com/me?trk=p_mwlite_profile_self-secondary_nav",
@@ -33,7 +37,7 @@ const FooterComp = () => {
             <FontAwesomeIcon icon={faBehance} width={30} color="#fff" />
           </div>
           <div
-            // onClick={handleEmailClick}
+            onClick={handleEmailClick}
             className="border border-[#0675B4] bg-[#0675B4] rounded-sm cursor-pointer"
           >
             <FontAwesomeIcon icon={faEnvelope} width={30} color="#fff" />

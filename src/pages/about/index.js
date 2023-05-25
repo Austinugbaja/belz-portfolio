@@ -3,6 +3,13 @@ import MainLayout from "@/src/layout/MainLayout";
 import { Button } from "@/src/components/button/Button";
 
 const index = () => {
+  const handleDownloadCV = () => {
+    window.open(
+      "https://us.docworkspace.com/d/sICqKhIJYsbmyowY?sa=00&st=0t",
+      "_blank"
+    );
+  };
+
   return (
     <MainLayout>
       <section className="w-full sm:px-56 px-4">
@@ -28,7 +35,9 @@ const index = () => {
           I am an advocate of the big picture and I find joy in working on
           projects from concept development to final implementation."
         </p>
-        <Button title="download cv" />
+        <div onClick={handleDownloadCV}>
+          <Button title="download cv" />
+        </div>
       </section>
       <section className="w-full sm:px-56 px-4 sm:py-10 py-8 space-y-5 bg-[#F9F9F9]">
         <h2 className="text-base tracking-widest uppercase font-[500] font-Poppins bg-gradient-to-l from-[#60B1FC] via-[#FE79F9] to-[#FF8473] bg-clip-text text-transparent">

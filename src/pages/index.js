@@ -5,10 +5,14 @@ import PortfolioHome from "../components/portfolio/PortfolioHome";
 import FooterComp from "../components/footer/FooterComp";
 
 const index = () => {
+  const handleEmailClick = () => {
+    window.open("mailto:belzgeorge997@gmail.com");
+  };
+
   return (
     <>
       <section
-        className="w-full h-[100vh] hero"
+        className="w-full sm:h-[100vh] h-[70vh] hero"
         style={{
           background:
             "linear-gradient(120.18deg, #FFFFFF 0%, rgba(255, 255, 255, 0.12) 39.46%, rgba(188, 188, 188, 0.07) 57.09%, rgba(98, 98, 98, 0.07) 80.59%);",
@@ -28,7 +32,10 @@ const index = () => {
               improve the lives of others. I am continuously seeking new
               opportunities for growth and knowledge.
             </p>
-            <div className="sm:block flex items-center justify-center">
+            <div
+              className="sm:block flex items-center justify-center"
+              onClick={handleEmailClick}
+            >
               <Button title="hire me" />
             </div>
           </div>
